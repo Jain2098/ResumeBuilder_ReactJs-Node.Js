@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000033;
+}
+
+body, .navbar, .btn, button, [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+  cursor: url("./img/cursor2.png") 15 15, move;
+}
+
+input, textarea  {
+  cursor: url("./img/input.png") 15 15, move;
+}
+
+a:-webkit-any-link {
+  cursor: url("./img/pointinghand_v1.svg") 15 15, move;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.resumepreview::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width */
+  background-color: #f5f5f5; /* Scrollbar background */
+}
+
+.resumepreview::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #cccccc; /* Scrollbar thumb color */
+  border: 2px solid #f5f5f5; /* Optional: Add border to the scrollbar thumb */
+}
+
+/* Custom scrollbar for Firefox */
+.resumepreview {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #0d6efd #f5f5f5; /* Thumb and track color */
+}
+
+/* IE and Edge */
+.resumepreview {
+  -ms-overflow-style: auto; /* Show default scrollbars in IE and Edge */
+}
+
+/* Setting Media Query for Mobile Devices only */
+@media (min-width: 320px) and (max-width: 480px) {
+  .resumepreview{
+    min-height: "300px" !important;
+  }
+  .resumeprevieadd{
+    min-height: 300px !important;
+    max-width: 100% !important;
+    max-height: none !important;
+  }
+}
+
+.resumeprevieadd{
+  min-height: 400px;
+  max-width: 1200px;
+  max-height: 600px;
+  overflow-y: auto;
+  border: 0.5px solid black;
+  /* maxWidth: "1200px",
+              minHeight:"400px", maxHeight:"600px", overflowY:"auto", border: "0.5px solid black", */
+}
+
+
+.add-button {
+  display: flex;
+  place-items: center;
+  place-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin: 30px 0 auto 0;
+  width: 100%;
+  padding: 5px;
+  animation: heartbeat 2.5s infinite;
+}
+@keyframes heartbeat {
+  0% {
+    /* background-color: rgb(255, 255, 255); */
+    color: white;
+  }
+  50% {
+    /* background-color: black; */
+    color: rgb(0, 245, 253);
+  }
+  100% {
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(251, 255, 0);
+  }
+}
+
+/* .add-button,
+.add-button > span {
+  cursor: pointer;
+} */
+
+/* .add-button:focus {
+  outline: auto;
+  outline-color: var(--accent);
+} */
+
+.add-button:hover {
+  background-color: #000033;
+}
+
+hr {
+  margin: 0;
+  border: 1px solid black;
+  opacity: 0.75;
+}
+
+.formmaincss {
+  min-height: "500px";
+  overflow-y: "auto";
+  max-height: "650px";
+}
+
+.navbtn {
+  display: inline-block;
+  width: auto;
+  max-width: 80px;
+  min-width: 40px;
+  max-height: 80px;
+  margin: 5px;
+}
+
+.navbtn:hover{
+  background-color: rgb(255, 180, 0);
+}
+
+
+.h1_modify {
+  font-size: 50px;
+  font-weight: 900;
+  background-image: url("./img/yellow-bg5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); */
+}
+
+.h1_modify::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5); /* Example background for ::before */
+}
+
+.resumelist {
+  box-shadow: 1px 1px 5px 3px blue;
+  transition: all .1s ease-out;
+}
+.resumelist:hover {
+  /* Kind of Blue SHadow */
+  box-shadow: 1px 1px 5px 10px blue;
+  
+}
+
+.personalInfocss a  {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.card img{
+  aspect-ratio: 16/9;
+}
+
+.homeBtn:hover {
+  background-color: #000033;
+  color: white;
+  cursor: url("./img/pointinghand_v1.svg") 15 15, move;
+  transform: scale(1.2);
+  transition: all 0.1s;
+}
+
+.homeCard img:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
+}
+.homeCard {
+  overflow: hidden;
+  min-width: 200px;
+}
