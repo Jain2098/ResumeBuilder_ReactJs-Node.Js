@@ -1,0 +1,59 @@
+{
+  "personalInfo": {
+    "firstname": "The",
+    "lastname": "Mighty Flash",
+    "address": "Central City",
+    "phone": "647-851-9821",
+    "email": "yourEmail@gmail.com",
+    "linkedin": "linkedin.com/my-profile",
+    "github": "github.com/my-profile"
+  },
+  "objective": "Primary goal is to protect the citizens of Central City (and sometimes beyond) from those who would do them harm.",
+  "keyHighlights": [
+    {
+      "id": "a13010b4-6eb4-4a90-b8b7-9e53ffc5af61",
+      "title": "Speedster",
+      "description": "Fastest Runner on Earth"
+    }
+  ],
+  "education": [
+    {
+      "id": "7405215e-0a1e-485c-8e7c-78035daec090",
+      "instituteType": "Central City University",
+      "courseType": "Physics",
+      "location": "Central City",
+      "startYear": "2023",
+      "endYear": "2025"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "12ce747e-5059-4a1e-9d8f-f59bd7801c7f",
+      "company": "Central City Police Department",
+      "position": "Forensic Scientist",
+      "location": "Central City",
+      "start": "2023",
+      "end": "2025",
+      "description": [
+        {
+          "id": "9b48c97f-4ce4-4b8c-9116-9adbad44a424",
+          "term": "Stewardship",
+          "description": "Acts as a guardian of Earth, carefully managing the use of his Kryptonian powers to ensure minimal collateral damage and to protect humanity as a whole."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "e19f6b46-f02b-41f8-ad94-c5ed1087d015",
+      "title": "The Flash",
+      "url": "TheFlash.com",
+      "description": "Barry Allen, the Flash, pushed the limits of speed in S.T.A.R. Labs. His newest project involved a treadmill built of pure Speed Force energy – volatile and unpredictable. The goal was to reach impossible speeds, but Cisco's warnings echoed in his ears as he stepped onto the glowing platform, ready to disappear in a blur of crimson lightning.",
+      "start": "Feb 2024",
+      "end": "Feb 2024",
+      "skills": "Science, Engineering, Superhuman Speed, Time Travel, Leadership"
+    }
+  ],
+  "uniqueid": "ffff736f-8d2a-45fa-acc6-219148bc09a7",
+  "date": "2024-02-28, 2:06:11 p.m."
+}

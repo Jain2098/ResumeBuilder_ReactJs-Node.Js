@@ -1,0 +1,60 @@
+{
+  "id": "ff842565-61a3-4579-abd2-aa4085738f7f",
+  "personalInfo": {
+    "firstname": "Himanshu",
+    "lastname": "Jain",
+    "address": "256, Random Ave",
+    "phone": "547-985-9587",
+    "email": "random@gmail.com",
+    "linkedin": "linkdin.com/my-profile",
+    "github": "github.com/my-profile"
+  },
+  "objective": "My Objective is to work in a company where I can utilize my skills and knowledge to deliver value to the company and grow as a professional.",
+  "keyHighlights": [
+    {
+      "id": "a2121545-3522-4735-9800-9c7c4335eefd",
+      "title": "Programming Language",
+      "description": "Java, Python, MySQL, JavaScript, Kotlin along with ReactJS and Node.js"
+    }
+  ],
+  "education": [
+    {
+      "id": "9f61e677-645d-4d40-892b-ea57d192e3d9",
+      "instituteType": "Humber College",
+      "courseType": "Computer Programming and Analysis",
+      "location": "Toronto, ON, Canada",
+      "startYear": "2023",
+      "endYear": "2025"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "b00debf7-b5e3-484d-9ed5-864bbd75b071",
+      "company": "Tim Hortons",
+      "position": "Supervisor",
+      "location": "Etobicoke, ON, Canada",
+      "start": "2023",
+      "end": "2025",
+      "description": [
+        {
+          "id": "8555203b-1130-4da5-8c72-d7210d1a358e",
+          "term": "Stewardship",
+          "description": "Acts as a guardian of Earth, carefully managing the use of his Kryptonian powers to ensure minimal collateral damage and to protect humanity as a whole."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "c2e7a23c-f9f3-41b3-86d1-afc11a232459",
+      "title": "Resume Builder App",
+      "url": "ResumeBuilder.xyz",
+      "description": "This is a simple resume builder app that allows you to create a resume by filling out the form on the left side of the screen. The resume will be displayed on the right side of the screen. You can also save and load your resume using the save/load tab.",
+      "start": "Feb 2024",
+      "end": "Feb 2024",
+      "skills": "HTML, CSS, JavaScript, React.Js, NodeJs"
+    }
+  ],
+  "uniqueid": "1d9d09b1-81bf-47ea-b7c3-023ea74108cb",
+  "date": "2024-02-28, 4:44:06 p.m."
+}

@@ -1,0 +1,59 @@
+{
+  "personalInfo": {
+    "firstname": "Ben",
+    "lastname": "10",
+    "address": "Central City",
+    "phone": "647-851-9821",
+    "email": "yourEmail@gmail.com",
+    "linkedin": "linkedin.com/my-profile",
+    "github": "github.com/my-profile"
+  },
+  "objective": "Master the Omnitrix and save the world from villains mainly from Vilgax.",
+  "keyHighlights": [
+    {
+      "id": "85827e17-7f67-4b40-9a3e-dc03be589eb7",
+      "title": "Speedster",
+      "description": "Fastest Runner on Earth."
+    }
+  ],
+  "education": [
+    {
+      "id": "ed9551f4-bc3f-4853-a3a3-b0067e869f71",
+      "instituteType": "Central City University",
+      "courseType": "Physics",
+      "location": "Central City",
+      "startYear": "2023",
+      "endYear": "2025"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "c58721bf-2db8-4c2d-8375-07cc639e9a55",
+      "company": "Central City Police Department",
+      "position": "Forensic Scientist",
+      "location": "Central City",
+      "start": "2023",
+      "end": "2025",
+      "description": [
+        {
+          "id": "124747af-8ad6-4cdf-85af-0395a50ac664",
+          "term": "Stewardship",
+          "description": "Acts as a guardian of Earth, carefully managing the use of his Kryptonian powers to ensure minimal collateral damage and to protect humanity as a whole."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "8d180208-297e-42b1-9f66-4aa8c62444b4",
+      "title": "The Flash",
+      "url": "Flash.com",
+      "description": "Barry Allen, the Flash, pushed the limits of speed in S.T.A.R. Labs. His newest project involved a treadmill built of pure Speed Force energy – volatile and unpredictable. The goal was to reach impossible speeds, but Cisco's warnings echoed in his ears as he stepped onto the glowing platform, ready to disappear in a blur of crimson lightning.",
+      "start": "Feb 2024",
+      "end": "Feb 2024",
+      "skills": "Science, Engineering, Superhuman Speed, Time Travel, Leadership"
+    }
+  ],
+  "uniqueid": "00ca0464-da89-4d08-8c71-7a58222de297",
+  "date": "2024-02-28, 2:34:34 p.m."
+}
